@@ -1,0 +1,17 @@
+/* Importation des fichiers CSS */
+@import url('Fonts.css');
+@import url('Layout.css');
+@import url('Components.css');
+@import url('Forms.css');
+@import url('Tables.css');
+
+/* Réinitialisation des styles par défaut des navigateurs */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}

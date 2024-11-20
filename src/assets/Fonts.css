@@ -1,0 +1,22 @@
+/* Styles fonts */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #2e4726; /* Vert foncé */
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 15px;
+    color: #2e4726; /* Vert foncé */
+}
+
+a {
+    color: #82b440; /* Vert feuille */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #609d2a; /* Vert plus foncé */
+    text-decoration: underline;
+}

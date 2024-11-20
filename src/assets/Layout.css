@@ -1,0 +1,36 @@
+/* Styles globaux de mise en page */
+header {
+    background-color: #82b440; /* Vert feuille */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+nav.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #e6b800; /* Jaune naturel */
+    padding: 10px;
+}
+
+nav.menu a {
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav.menu a:hover {
+    background-color: #82b440;
+}
+
+footer {
+    background-color: #2e4726; /* Vert foncé */
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
