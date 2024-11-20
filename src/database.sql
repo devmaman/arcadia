@@ -179,6 +179,9 @@ CREATE TABLE `utilisateur` (
   `role_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
+INSERT INTO utilisateur (username, password, nom, prenom, role_id)
+VALUES ('admin', '123456789', 'admin', 'user', 1);
+
 --
 -- Index pour la table `animal`
 --
